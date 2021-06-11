@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map Tracker</title>
+    <link rel="stylesheet" type="text/css" href="src/styles/main.css">
+    <script src="src/scripts/map.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <button class="home"><i class="material-icons">home</i></button>
+    <img id="tracker" src="src/images/tracker.png" alt="covid tracker">
+    <div id="tabela">
+        <form class="myForm">
+            <label for="idname" class="idid">ID</label>
+            <input id="idname" type="text">
+
+            <label for="realname" class="namename">Name</label>
+            <input id="realname" type="text">
+
+            <label for="gender" class="gendergender">Gender</label>
+            <input id="realname" type="text">
+        </form>
+    </div>
+
+    <div id="tabelb">
+        <form class="myForm">
+            <label for="agename" class="ageage">Age</label>
+            <input id="agenam" type="text">
+
+            <label for="statusname" class="statstat">Status</label>
+            <input id="statusname" type="text">
+        </form>
+    </div>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Data')" id="defaultOpen">Data Tracking</button>
+        <button class="tablinks" onclick="openTab(event, 'Map')">Map Tracking</button>
+    </div>
+    <div class="patient">
+        <div id="Data" class="tabcontent">
+            <div class="tableFixHead">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>1</th>
+                            <th>01-01-2020</th>
+                            <th>21:10</th>
+                            <th>100.122</th>
+                            <th>140.133</th>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+        <div id="Map" class="tabcontent">
+
+        </div>
+    </div>
+
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+</body>
+
+</html>
