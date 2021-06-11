@@ -349,12 +349,12 @@ label {
 }
 
 .log {
-    width: 382px;
+    width: 485px;
     overflow: hidden;
     margin: auto;
     font-size: 40px;
     text-align: auto;
-    padding: 70px;
+    padding: 60px;
     background: white;
     border-radius: 15px;
 }
