@@ -1,0 +1,411 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6480E3;
+    font-family: 'Arial';
+}
+
+.findid {
+    width: 80%;
+    height: 65vh;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 60px;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+label {
+    color: black;
+    font-size: 17px;
+}
+
+#search {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 16px;
+}
+
+#sear {
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: blue;
+}
+
+#cari {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+span {
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    float: right;
+    background-color: grey;
+}
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #eee;
+}
+
+.home {
+    position: absolute;
+    top: 16px;
+    right: 32px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.home:hover {
+    background-color: DodgerBlue;
+}
+
+.ikon {
+    background-color: #EED709;
+}
+
+.ikon:hover {
+    background-color: #CCD507;
+}
+
+.login {
+    position: absolute;
+    top: 25%;
+    right: 7%;
+    width: 20%;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+}
+
+.masukan {
+    width: 300px;
+    border: none;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    padding-left: 8px;
+    background-color: #DBE2FB;
+}
+
+#log {
+    width: 275px;
+    height: 35px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #EED709;
+}
+
+#log:hover {
+    background-color: #DDC600;
+}
+
+#tracker {
+    display: block;
+    margin-top: 1%;
+    width: 20%;
+    height: 20%;
+}
+
+#logo {
+    display: block;
+    margin-left: 17%;
+    width: 30%;
+    height: 30%;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    size: auto;
+    background: #DBE2FB;
+    color: white;
+    min-width: 20px;
+    text-align: center;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6abadeba;
+    color: black;
+    font-family: 'Arial';
+}
+
+#tabela {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    width: 18%;
+}
+
+#tabelb {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 18%;
+}
+
+.myForm {
+    display: grid;
+    grid-template-columns: [labels] auto [controls] 1fr;
+    grid-auto-flow: row;
+    grid-gap: 1em;
+    color: black;
+    padding: 0.5em;
+}
+
+.myForm>label {
+    grid-column: labels;
+    grid-row: auto;
+}
+
+.myForm>input,
+.myForm>textarea,
+.myForm>button {
+    grid-column: controls;
+    grid-row: auto;
+    border: none;
+    padding: 0.8em;
+    border-radius: 1em;
+}
+
+.patient {
+    position: relative;
+    top: 220px;
+    width: 80%;
+    height: 40vh;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 60px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+h3 {
+    text-align: center;
+    color: #277582;
+    padding: 2px;
+}
+
+label {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+span {
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    float: right;
+    background-color: grey;
+}
+
+#tracker {
+    display: block;
+    margin-top: 1%;
+    width: 20%;
+    height: 20%;
+}
+
+.tab {
+    position: absolute;
+    top: 30%;
+    right: 8%;
+    overflow: hidden;
+    border: 3px solid #000;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    width: 300px;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    width: 150px;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+}
+
+.tableFixHead {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.tableFixHead thead th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #eee;
+}
+
+h2,
+h3 {
+    text-align: center;
+    color: black;
+    padding: 5px;
+}
+
+label {
+    color: black;
+    font-size: 17px;
+}
+
+.log {
+    width: 485px;
+    overflow: hidden;
+    margin: auto;
+    font-size: 40px;
+    text-align: auto;
+    padding: 60px;
+    background: white;
+    border-radius: 15px;
+}
+
+.log:hover {
+    background-color: #BBBBBB;
+}
+
+#data {
+    position: absolute;
+    top: 40%;
+    left: 52%;
+}
+
+#map {
+    position: absolute;
+    top: 40%;
+    right: 52%;
+}
+
+#quit {
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    width: 5%;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 20px;
+    padding: 10px;
+    background: #E03737;
+    color: white;
+    border-radius: 15px;
+}
+
+#quit:hover {
+    background: #B01717;
+}
+
+span {
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    float: right;
+    background-color: grey;
+}
+
+#tracker {
+    display: block;
+    margin-top: 1%;
+    width: 20%;
+    height: 20%;
+}
