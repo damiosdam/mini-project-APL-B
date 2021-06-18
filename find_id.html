@@ -1,0 +1,40 @@
+<!DOCTYPE html>    
+<html>
+	<head>
+		<title>Find ID</title>
+		<link rel="stylesheet" type="text/css" href="src/styles/find.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		
+		<script src="src/scripts/data_track.js"></script>
+    </head>
+    <body onload="cetak()">
+		<br/><br/><br/><br/><br/>
+		<button class="home" onclick="goHome()"><i class="material-icons">home</i></button>
+		<div class="findid">
+			<form id="cari" method="get" action="search.php">
+				<input type="text" name="Search" id="search" placeholder="Search">
+				<input class="ikon" type="button" name="Sear" id="sear" value="Cari" onclick="ambilDariData()">
+			</form>
+			<div class="tableFixHead">
+				<table>
+					<thead>
+						<tr>
+							<th>No</th>
+							<th>Id</th>
+							<th>Name</th>
+							<th>Sex</th>
+							<th>Age</th>
+							<th>Condition</th>
+						</tr>
+					 </thead>
+						
+					<tbody id="badanTabel">
+						
+					</tbody>
+						
+				</table>
+			
+			</div>
+		</div>
+    </body>
+</html>     

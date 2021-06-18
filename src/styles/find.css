@@ -1,0 +1,102 @@
+body {  
+	margin: 0;
+	padding: 0;
+	background-color:#6480E3;
+	font-family: 'Arial';
+}
+
+.findid {
+	width: 80%;
+	height: 65vh;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 60px;
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+
+label {
+	color: #08ffd1;
+	font-size: 17px;
+}  
+
+#search {
+	width: 200px;
+	height: 40px;
+	border: none;
+	border-radius: 17px;
+	padding-left: 16px;
+}
+
+#sear {
+	width: 60px;
+	height: 40px;
+	border: none;
+	border-radius: 17px;
+	padding-left: 7px;
+	color: blue;
+}
+
+#cari {
+	position: absolute;
+	top: 32px;
+	left: 32px;
+}
+
+span {
+	color: white;
+	font-size: 17px;
+}
+	
+a {
+	float: right;
+	background-color: grey;
+}
+
+.tableFixHead {
+	overflow-y: auto;
+	height: 100%;
+}
+
+.tableFixHead thead th {
+	position: sticky;
+	top: 0;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	padding: 8px 16px;
+	border: 1px solid #ccc;
+}
+	  
+th {
+	background: #eee;
+}
+
+.home {
+	position: absolute;
+	top: 16px;
+	right: 32px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	padding: 12px 16px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.home:hover {
+	background-color: DodgerBlue;
+}
+
+.ikon {
+	background-color: #EED709;
+}
+
+.ikon:hover {
+	background-color: #CCD507;
+}
